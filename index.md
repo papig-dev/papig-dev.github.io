@@ -13,6 +13,9 @@ layout: default
 
 - [파이썬 활용하기 - 문제해결](https://kmong.com/self-marketing/456995/Mysktg0hpV)
 
+파이썬을 활용하면서 도움이 되었던 내용으로 작성되었습니다.
+기본 문법등이 아닌 활용 및 팁 도서입니다.
+
  
 #### 목차
 
