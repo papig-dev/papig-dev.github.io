@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# papig dev 
+# papig  
 
 데이터 분석을 이해하기 위해 노력하는 papig 입니다
 
@@ -19,30 +19,20 @@ layout: default
  
 #### 목차
 
-파이썬이란	                                  3
+| 제목 | 페이지|
+|----|----|
+|파이썬이란	                                  |3|
+|파이썬 설치	                                |3|
+|&nbsp; Windows 에서 설치하기	                      |4|
+|&nbsp; macOS 에서 설치하기	                        |5|
+|&nbsp; miniforge install	                        |6|
+|minifoge 가상환경 만들기 예제	               |11|
+|IDE	                                       |14|
+|&nbsp;  pycharm community install	               |14|
+|&nbsp;  pycharm community 에 conda 환경 연결하기	 |15|
+|기타 문제해결 및 활용하기	                   |18|
+|&nbsp;  easyocr 설치 에러	                       |18|
+|&nbsp;  conda 가상환경 다른 경로에 설치하기	         |19|
+|&nbsp;  google colab에 python 3.6 버전 설치하기	   |22|
+|마무리를 하며	                               |28|
 
-파이썬 설치	                                3
-
-  Windows 에서 설치하기	                      4
-  
-  macOS 에서 설치하기	                        5
-  
-  miniforge install	                        6
-  
-minifoge 가상환경 만들기 예제	               11
-
-IDE	                                       14
-
-  pycharm community install	               14
-  
-  pycharm community 에 conda 환경 연결하기	 15
-  
-기타 문제해결 및 활용하기	                   18
-
-  easyocr 설치 에러	                       18
-  
-  conda 가상환경 다른 경로에 설치하기	         19
-  
-  google colab에 python 3.6 버전 설치하기	   22
-  
-마무리를 하며	                               28
