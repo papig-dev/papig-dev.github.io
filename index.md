@@ -36,3 +36,11 @@ layout: default
 |&nbsp;  google colab에 python 3.6 버전 설치하기	   |22|
 |마무리를 하며	                               |28|
 
+
+
+
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=papig-dev.papig-dev.github.io)
+
+
+
+
