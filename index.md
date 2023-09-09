@@ -38,9 +38,3 @@ layout: default
 
 
 
-
-![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=papig-dev.papig-dev.github.io)
-
-
-
-#
