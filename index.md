@@ -3,7 +3,7 @@ layout: default
 ---
 
 # papig  
-![](https://d2v80xjmx68n4w.cloudfront.net/members/thumbs/cdRiK1705143685.jpg)
+![](/assets/images/papig.logo.jpg)
 
 데이터 분석을 이해하기 위해 노력하는 papig 입니다
 
