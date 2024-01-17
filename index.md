@@ -3,11 +3,17 @@ layout: default
 ---
 
 # papig  
+![](https://d2v80xjmx68n4w.cloudfront.net/members/thumbs/cdRiK1705143685.jpg)
 
 데이터 분석을 이해하기 위해 노력하는 papig 입니다
 
 
 ## kmong 활동
+
+### 파이썬 오류 수정
+
+- [파이썬 코드 오류 잡아 드립니다.](https://kmong.com/gig/404631)
+
 
 ### ebook
 
