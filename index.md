@@ -12,12 +12,12 @@ layout: default
 
 ### 파이썬 오류 수정
 
-- [파이썬 코드 오류 잡아 드립니다.](https://kmong.com/gig/404631)
+- <a href="https://kmong.com/gig/404631" target="_blank">파이썬 코드 오류 잡아 드립니다.</a>
 
 
 ### ebook
 
-- [파이썬 활용하기 - 문제해결](https://kmong.com/self-marketing/456995/Mysktg0hpV)
+- <a href="https://kmong.com/self-marketing/456995/Mysktg0hpV" target="_blank">파이썬 활용하기 - 문제해결</a>
 
 파이썬을 활용하면서 도움이 되었던 내용으로 작성되었습니다.
 기본 문법등이 아닌 활용 및 팁 도서입니다.
