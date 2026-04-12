@@ -54,6 +54,6 @@ layout: default
 
 Riffle은 음악을 들으며 자연스럽게 곡 제목과 아티스트 이름을 익힐 수 있도록 설계한 음악 플레이어입니다. 사용자가 반복 학습 없이도 음악 감상 중에 제목을 기억하도록 돕습니다.
 
-![](/assets/images/03-settings.png)
+<img src="/assets/images/03-settings.png" width="300" height="auto" alt="Riffle app settings screenshot">
 
 [Download](https://apps.apple.com/app/riffle/id6759858871)
