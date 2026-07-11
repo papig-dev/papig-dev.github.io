@@ -15,9 +15,9 @@ layout: default
 <div class="app-grid">
 
   <div class="app-card">
-    <div class="app-icon">🎵</div>
+    <div class="app-icon"><img src="/assets/images/riffle-icon.jpg" alt="Riffle 앱 아이콘"></div>
     <h3 class="app-name">Riffle</h3>
-    <p class="app-desc">한 번 섞은 순서를 그대로 유지하며, 곡 제목을 자연스럽게 익히는 셔플 음악 플레이어</p>
+    <p class="app-desc">곡이 바뀔 때마다 노래 제목을 음성으로 읽어줘, 들으면서 자연스럽게 노래를 익히는 음악 플레이어</p>
     <div class="app-actions">
       <a class="app-store-link" href="https://apps.apple.com/app/riffle/id6759858871" target="_blank">App Store</a>
       <a class="app-support" href="/riffle/">고객지원</a>
@@ -25,9 +25,9 @@ layout: default
   </div>
 
   <div class="app-card">
-    <div class="app-icon">📅</div>
+    <div class="app-icon"><img src="/assets/images/expensecal-icon.jpg" alt="지출달력 앱 아이콘"></div>
     <h3 class="app-name">지출달력</h3>
-    <p class="app-desc">달력 위에 하루하루 지출을 기록하고 한눈에 관리하는 가계부</p>
+    <p class="app-desc">한 달 지출을 미리 적어두고, 계획대로 잘 지켰는지 확인하는 월간 가계부</p>
     <div class="app-actions">
       <a class="app-store-link" href="https://apps.apple.com/kr/app/%EC%A7%80%EC%B6%9C%EB%8B%AC%EB%A0%A5/id6751044457" target="_blank">App Store</a>
       <a class="app-support" href="/expensecal/">고객지원</a>
@@ -35,7 +35,7 @@ layout: default
   </div>
 
   <div class="app-card">
-    <div class="app-icon">🔥</div>
+    <div class="app-icon"><img src="/assets/images/keepstreak-icon.png" alt="KeepStreak 앱 아이콘"></div>
     <h3 class="app-name">KeepStreak</h3>
     <p class="app-desc">의지를 숫자로 남기는 습관 챌린지. 매일 지켜낸 날을 연속 기록으로 보여줍니다</p>
     <div class="app-actions">
@@ -45,7 +45,7 @@ layout: default
   </div>
 
   <div class="app-card">
-    <div class="app-icon">⛽</div>
+    <div class="app-icon"><img src="/assets/images/chagoklog-icon.png" alt="차곡로그 앱 아이콘"></div>
     <h3 class="app-name">차곡로그</h3>
     <p class="app-desc">주행거리만 찍으면 금액·단가·리터·연비까지 자동 기록되는 주유 차계부</p>
     <div class="app-actions">
