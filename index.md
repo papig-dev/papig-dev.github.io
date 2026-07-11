@@ -47,7 +47,7 @@ layout: default
   <div class="app-card">
     <div class="app-icon"><img src="/assets/images/chagoklog-icon.png" alt="차곡로그 앱 아이콘"></div>
     <h3 class="app-name">차곡로그</h3>
-    <p class="app-desc">주행거리만 찍으면 금액·단가·리터·연비까지 자동 기록되는 주유 차계부</p>
+    <p class="app-desc">주유 기록이 <b>차</b>곡<b>차</b>곡 쌓이는 차(車)계부. 주행거리만 찍으면 금액·단가·리터·연비까지 자동으로 채워집니다.</p>
     <div class="app-actions">
       <span class="app-soon">준비중</span>
       <a class="app-support" href="/chagoklog/">고객지원</a>
