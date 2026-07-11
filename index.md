@@ -8,6 +8,55 @@ layout: default
 데이터 분석을 이해하기 위해 노력하는 papig 입니다
 
 
+## 앱
+
+직접 만든 앱들입니다.
+
+<div class="app-grid">
+
+  <div class="app-card">
+    <div class="app-icon">🎵</div>
+    <h3 class="app-name">Riffle</h3>
+    <p class="app-desc">한 번 섞은 순서를 그대로 유지하며, 곡 제목을 자연스럽게 익히는 셔플 음악 플레이어</p>
+    <div class="app-actions">
+      <a class="app-store-link" href="https://apps.apple.com/app/riffle/id6759858871" target="_blank">App Store</a>
+      <a class="app-support" href="/riffle/">고객지원</a>
+    </div>
+  </div>
+
+  <div class="app-card">
+    <div class="app-icon">📅</div>
+    <h3 class="app-name">지출달력</h3>
+    <p class="app-desc">달력 위에 하루하루 지출을 기록하고 한눈에 관리하는 가계부</p>
+    <div class="app-actions">
+      <a class="app-store-link" href="https://apps.apple.com/kr/app/%EC%A7%80%EC%B6%9C%EB%8B%AC%EB%A0%A5/id6751044457" target="_blank">App Store</a>
+      <a class="app-support" href="/expensecal/">고객지원</a>
+    </div>
+  </div>
+
+  <div class="app-card">
+    <div class="app-icon">🔥</div>
+    <h3 class="app-name">KeepStreak</h3>
+    <p class="app-desc">의지를 숫자로 남기는 습관 챌린지. 매일 지켜낸 날을 연속 기록으로 보여줍니다</p>
+    <div class="app-actions">
+      <span class="app-soon">준비중</span>
+      <a class="app-support" href="/keepstreak">고객지원</a>
+    </div>
+  </div>
+
+  <div class="app-card">
+    <div class="app-icon">⛽</div>
+    <h3 class="app-name">차곡로그</h3>
+    <p class="app-desc">주행거리만 찍으면 금액·단가·리터·연비까지 자동 기록되는 주유 차계부</p>
+    <div class="app-actions">
+      <span class="app-soon">준비중</span>
+      <a class="app-support" href="/chagoklog/">고객지원</a>
+    </div>
+  </div>
+
+</div>
+
+
 ## kmong 활동
 
 ### 파이썬 오류 수정
@@ -45,15 +94,3 @@ layout: default
 
 
 ![](https://komarev.com/ghpvc/?username=papig-dev&color=green)
-
-
-
-## 앱 개발
-
-- 앱 이름: Riffle
-
-Riffle은 음악을 들으며 자연스럽게 곡 제목과 아티스트 이름을 익힐 수 있도록 설계한 음악 플레이어입니다. 사용자가 반복 학습 없이도 음악 감상 중에 제목을 기억하도록 돕습니다.
-
-<img src="/assets/images/03-settings.png" width="300" height="auto" alt="Riffle app settings screenshot">
-
-[Download](https://apps.apple.com/app/riffle/id6759858871)
