@@ -46,4 +46,4 @@ papig(개발자 papig-dev)의 앱 지원·마케팅용 GitHub Pages 사이트입
 ## 공용 설정
 
 - `app-ads.txt`(루트) — AdMob 인증, 전 앱 공용 `pub-9079463377322704`.
-- 문의 이메일: papig.dev@gmail.com (일부 페이지는 papig.dev@gmail.com).
+- 문의 이메일: 전 페이지 `papig.dev@gmail.com`으로 통일.
