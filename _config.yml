@@ -12,3 +12,13 @@ permalink: /blog/:title/
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+exclude:
+  - CLAUDE.md
+  - README.md
+  - LICENSE
+  - another-page.md
+  - docs/
+  - script/
+  - Gemfile
+  - "*.gemspec"
