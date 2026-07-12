@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 지출달력 고객지원
+description: 지출달력은 이번 달 나갈 지출을 달력에 미리 올려두고 예정대로 나갔는지 확인하는 월간 지출 관리 앱입니다. 사용법과 문의를 안내합니다.
 permalink: /expensecal/
 ---
 

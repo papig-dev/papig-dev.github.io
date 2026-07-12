@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 차곡로그 고객지원
+description: 차곡로그는 주행거리만 찍으면 금액·단가·리터·연비까지 자동 기록되는, 가장 빠른 iPhone 주유 차계부 앱입니다. 사용법과 문의를 안내합니다.
 permalink: /chagoklog/
 ---
 

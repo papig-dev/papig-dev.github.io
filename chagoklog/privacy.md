@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 차곡로그 개인정보처리방침
+description: 차곡로그의 개인정보처리방침입니다. 주유·정비·비용 기록은 기기에 저장되며, 위치는 주변 주유소 조회에만 일시적으로 사용됩니다.
 permalink: /chagoklog/privacy/
 ---
 

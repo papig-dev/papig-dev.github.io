@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Riffle 개인정보처리방침
+description: Riffle의 개인정보처리방침입니다. Riffle은 개인정보를 서버에 수집하지 않으며 광고·추적도 하지 않습니다.
 permalink: /riffle/privacy/
 ---
 

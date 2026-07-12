@@ -1,5 +1,7 @@
 ---
 layout: default
+title: papig — 직접 만든 iPhone 앱
+description: 음악 플레이어 Riffle, 월간 지출 관리 지출달력, 습관 챌린지 KeepStreak, 주유 차계부 차곡로그까지. papig이 직접 만든 iPhone 앱을 소개하고 지원합니다.
 ---
 
 # papig  
@@ -55,6 +57,11 @@ layout: default
   </div>
 
 </div>
+
+
+## 개발 노트
+
+앱을 왜 만들었고 어떻게 쓰는지 정리한 글입니다 → [개발 노트 보기](/blog/)
 
 
 ## kmong 활동

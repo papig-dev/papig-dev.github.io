@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Riffle 고객지원
+description: Riffle은 곡이 바뀔 때 노래 제목을 음성으로 읽어주는 iPhone 음악 플레이어입니다. 사용법과 문의를 안내합니다.
 permalink: /riffle/
 ---
 

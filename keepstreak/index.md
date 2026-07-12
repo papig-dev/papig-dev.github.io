@@ -1,6 +1,7 @@
 ---
 layout: default
 title: KeepStreak 지원
+description: KeepStreak은 지켜낸 날을 연속 기록(스트릭)으로 자동 카운트해 보여주는 iPhone 습관 챌린지 앱입니다. 사용법과 문의를 안내합니다.
 ---
 
 # KeepStreak

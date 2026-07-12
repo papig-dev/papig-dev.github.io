@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 지출달력 개인정보처리방침
+description: 지출달력의 개인정보처리방침입니다. 모든 지출·계좌 기록은 기기에만 저장되며 서버에 수집하지 않습니다.
 permalink: /expensecal/privacy/
 ---
 
