@@ -18,3 +18,7 @@ permalink: /expensecal/
 ## 개인정보처리방침
 
 [개인정보처리방침 보기](/expensecal/privacy/)
+
+---
+
+© 2026 지출달력. All rights reserved.

@@ -36,6 +36,22 @@
   box-shadow: 0 0 12px rgba(181, 232, 83, 0.15);
 }
 
+.app-card .app-card-link {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-decoration: none;
+  color: inherit;
+}
+
+.app-card .app-card-link:hover {
+  text-decoration: none;
+}
+
+.app-card .app-card-link:hover .app-name {
+  text-decoration: underline;
+}
+
 .app-card .app-icon {
   font-size: 30px;
   line-height: 1;

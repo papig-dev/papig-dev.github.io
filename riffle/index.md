@@ -18,3 +18,7 @@ Riffle은 한 번 섞은 재생목록을 그대로 유지하는 셔플 음악 �
 ## 개인정보처리방침
 
 [개인정보처리방침 보기](/riffle/privacy/)
+
+---
+
+© 2026 Riffle. All rights reserved.

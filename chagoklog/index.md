@@ -18,3 +18,7 @@ permalink: /chagoklog/
 ## 개인정보처리방침
 
 [개인정보처리방침 보기](/chagoklog/privacy/)
+
+---
+
+© 2026 차곡로그. All rights reserved.

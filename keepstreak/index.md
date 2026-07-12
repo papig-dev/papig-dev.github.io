@@ -1,10 +1,11 @@
 ---
 layout: default
-title: KeepStreak 지원
+title: KeepStreak 고객지원
 description: KeepStreak은 지켜낸 날을 연속 기록(스트릭)으로 자동 카운트해 보여주는 iPhone 습관 챌린지 앱입니다. 사용법과 문의를 안내합니다.
+permalink: /keepstreak/
 ---
 
-# KeepStreak
+# KeepStreak 고객지원
 
 의지를 숫자로 남기는 습관 챌린지 앱입니다. 매일 지켜낸 날을 연속 기록으로 보여주며 꾸준함을 만들어 줍니다.
 
@@ -31,9 +32,9 @@ description: KeepStreak은 지켜낸 날을 연속 기록(스트릭)으로 자�
 
 - 이메일: [papig.dev@gmail.com](mailto:papig.dev@gmail.com)
 
-## 개인정보
+## 개인정보처리방침
 
-- [개인정보 처리방침](/keepstreak/privacy)
+[개인정보처리방침 보기](/keepstreak/privacy/)
 
 ---
 
