@@ -60,7 +60,7 @@ description: 음악 플레이어 Riffle, 월간 지출 관리 지출달력, 습�
     </a>
     <div class="app-actions">
       <a class="app-store-link" href="https://apps.apple.com/kr/app/%EC%B0%A8%EA%B3%A1%EB%A1%9C%EA%B7%B8/id6789885380" target="_blank">App Store</a>
-      <a class="app-support" href="/chagoklog/privacy/">고객지원</a>
+      <a class="app-support" href="/chagoklog/">고객지원</a>
     </div>
   </div>
 
