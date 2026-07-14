@@ -19,7 +19,7 @@ papig(개발자 papig-dev)의 앱 지원·마케팅용 GitHub Pages 사이트입
 | Riffle | 출시 | `~/dev/riffle_v3` | `riffle-icon.jpg` | `/riffle/` |
 | 지출달력 (ExpenseCal) | 출시 | `~/dev/ExpenseCal` | `expensecal-icon.jpg` | `/expensecal/` |
 | KeepStreak | 준비중 | `~/dev/KeepStreak` | `keepstreak-icon.png` | `/keepstreak` |
-| 차곡로그 (Chagok) | 준비중 | `~/dev/carlife` | `chagoklog-icon.png` | `/chagoklog/` |
+| 차곡로그 (Chagok) | 출시 | `~/dev/Chagoklog` | `chagoklog-icon.png` | `/chagoklog/` |
 
 ### Riffle
 - **핵심**: 곡을 재생하기 **전에 제목을 음성(TTS)으로 읽어줘서** 노래 제목을 자연스럽게 익히게 하는 iPhone 음악 플레이어. 원래 아이들이 노래 제목을 기억하게 하려고 만든 앱.
@@ -38,6 +38,7 @@ papig(개발자 papig-dev)의 앱 지원·마케팅용 GitHub Pages 사이트입
 ### 차곡로그 (Chagok)
 - **핵심**: "세상에서 가장 빠른 주유 기록"을 목표로 한 차(車)계부. 주유소에서 몇 초면 기록 끝. 이름은 "**차**곡**차**곡 쌓인다" + "**차**(車)"의 말장난.
 - 주행거리 위주 빠른 입력(금액·단가는 지난 기록 참고, 리터 자동 계산), 연비 자동 계산, 오피넷 주변 주유소 실시간 판매가, 통계/위젯/iCloud 동기화. 오프라인 우선.
+- App Store: https://apps.apple.com/kr/app/차곡로그/id6789885380
 
 ## 배포
 

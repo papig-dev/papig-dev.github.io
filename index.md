@@ -59,8 +59,8 @@ description: 음악 플레이어 Riffle, 월간 지출 관리 지출달력, 습�
       <p class="app-desc">주유 기록이 <b>차</b>곡<b>차</b>곡 쌓이는 차(車)계부. 주유소에서 몇 초면 끝나는, 세상에서 가장 빠른 주유 기록.</p>
     </a>
     <div class="app-actions">
-      <span class="app-soon">준비중</span>
-      <a class="app-support" href="/chagoklog/">고객지원</a>
+      <a class="app-store-link" href="https://apps.apple.com/kr/app/%EC%B0%A8%EA%B3%A1%EB%A1%9C%EA%B7%B8/id6789885380" target="_blank">App Store</a>
+      <a class="app-support" href="/chagoklog/privacy/">고객지원</a>
     </div>
   </div>
 

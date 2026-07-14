@@ -9,6 +9,8 @@ permalink: /chagoklog/
 
 차곡로그를 이용해 주셔서 감사합니다. 주행거리만 찍으면 금액·단가·리터·연비까지 자동으로 기록되는, 가장 빠른 주유 차계부 앱입니다.
 
+[App Store에서 받기](https://apps.apple.com/kr/app/%EC%B0%A8%EA%B3%A1%EB%A1%9C%EA%B7%B8/id6789885380)
+
 ## 문의
 
 - 이메일: <a href="mailto:papig.dev@gmail.com">papig.dev@gmail.com</a>
