@@ -12,4 +12,8 @@
 <!-- Setup Google Adsense -->
 {% include head-custom-google-adsense.html %}
 
+<!-- Search engine site verification (fill codes in _config.yml) -->
+{% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification }}">{% endif %}
+{% if site.naver_site_verification %}<meta name="naver-site-verification" content="{{ site.naver_site_verification }}">{% endif %}
+
 <!-- end custom head snippets -->

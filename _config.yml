@@ -5,6 +5,11 @@ lang: ko_KR
 author: papig
 show_downloads: false
 google_analytics:
+logo: /assets/images/papig.logo.jpg
+
+# 검색엔진 소유확인 코드 (등록 후 값만 채우면 <head>에 메타태그 자동 삽입)
+google_site_verification:
+naver_site_verification:
 theme: jekyll-theme-hacker
 repository: papig-dev/papig-dev.github.io
 permalink: /blog/:title/
