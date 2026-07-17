@@ -27,7 +27,7 @@ papig(개발자 papig-dev)의 앱 지원·마케팅용 GitHub Pages 사이트입
 |----|------|----------|--------|-----------|
 | Riffle | 출시 | `~/dev/riffle_v3` | `riffle-icon.jpg` | `/riffle/` |
 | 지출달력 (ExpenseCal) | 출시 | `~/dev/ExpenseCal` | `expensecal-icon.jpg` | `/expensecal/` |
-| KeepStreak | 준비중 | `~/dev/KeepStreak` | `keepstreak-icon.png` | `/keepstreak` |
+| KeepStreak | 출시 | `~/dev/KeepStreak` | `keepstreak-icon.png` | `/keepstreak/` |
 | 차곡로그 (Chagok) | 출시 | `~/dev/Chagoklog` | `chagoklog-icon.png` | `/chagoklog/` |
 
 ### Riffle
@@ -44,6 +44,7 @@ papig(개발자 papig-dev)의 앱 지원·마케팅용 GitHub Pages 사이트입
 ### KeepStreak
 - **핵심**: 의지를 숫자로 남기는 습관 챌린지. "며칠째 지켜냈는지"를 큰 숫자(연속 기록)로 보여줌.
 - "안 하기"형 챌린지(탄산·야식·담배 등)는 매일 자동으로 연속 일수 증가, 실패한 날만 리셋. 홈 화면 위젯 지원. 데이터는 기기에만 저장.
+- App Store: https://apps.apple.com/kr/app/keepstreak/id6789895813
 
 ### 차곡로그 (Chagok)
 - **핵심**: "세상에서 가장 빠른 주유 기록"을 목표로 한 차(車)계부. 주유소에서 몇 초면 기록 끝. 이름은 "**차**곡**차**곡 쌓인다" + "**차**(車)"의 말장난.

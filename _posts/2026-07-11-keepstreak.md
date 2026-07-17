@@ -39,7 +39,8 @@ tags: [iPhone앱, 습관, KeepStreak]
 3. 대표 챌린지를 홈 화면 위젯에 올려두고 숫자를 지켜봅니다.
 4. 어긴 날엔 리셋하고 다시 1일부터 시작하면 돼요.
 
-기록은 전부 기기에만 저장돼요. 지금 App Store 심사 중이라, 곧 받으실 수 있습니다. 소식은 [지원 페이지](/keepstreak)에 올릴게요.
+기록은 전부 기기에만 저장돼요. 이제 App Store에서 받으실 수 있습니다 → [KeepStreak 보러 가기](https://apps.apple.com/kr/app/keepstreak/id6789895813)
+궁금한 점은 [고객지원 페이지](/keepstreak/)로요.
 
 </div>
 
@@ -73,6 +74,7 @@ It fits **"don't do it" goals** especially well — no soda, no late-night snack
 3. Pin your main challenge to a home-screen widget and watch the number.
 4. If you slip, reset and start again from day one.
 
-Everything is stored only on your device. It's in App Store review right now, so it'll be available soon. I'll post updates on the [support page](/keepstreak).
+Everything is stored only on your device. It's out on the App Store now → [View KeepStreak](https://apps.apple.com/kr/app/keepstreak/id6789895813)
+Questions? Head to the [support page](/keepstreak/).
 
 </div>

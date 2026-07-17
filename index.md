@@ -47,7 +47,7 @@ description: 음악 플레이어 Riffle, 월간 지출 관리 지출달력, 습�
       <p class="app-desc">의지를 숫자로 남기는 습관 챌린지. 매일 지켜낸 날을 연속 기록으로 보여줍니다</p>
     </a>
     <div class="app-actions">
-      <span class="app-soon">준비중</span>
+      <a class="app-store-link" href="https://apps.apple.com/kr/app/keepstreak/id6789895813" target="_blank">App Store</a>
       <a class="app-support" href="/keepstreak/">고객지원</a>
     </div>
   </div>

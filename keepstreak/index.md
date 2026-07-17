@@ -9,6 +9,8 @@ permalink: /keepstreak/
 
 의지를 숫자로 남기는 습관 챌린지 앱입니다. 매일 지켜낸 날을 연속 기록으로 보여주며 꾸준함을 만들어 줍니다.
 
+App Store에서 받을 수 있습니다 → [KeepStreak 보러 가기](https://apps.apple.com/kr/app/keepstreak/id6789895813)
+
 ## 주요 기능
 
 - **연속 일수 자동 추적** — 매일 자동으로 하루가 쌓입니다.
