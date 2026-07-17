@@ -1,11 +1,15 @@
 ---
 layout: post
+bilingual: true
 title: "체크하는 것도 까먹는 사람을 위한 습관 앱, KeepStreak"
+title_en: "KeepStreak — a habit app for people who forget to check the box"
 date: 2026-07-11
 author: papig
 description: 지켜낸 날을 연속 기록으로 자동 카운트해 보여주는 습관 챌린지 앱 KeepStreak. 왜 만들었는지와 쓰는 법을 정리했습니다.
 tags: [iPhone앱, 습관, KeepStreak]
 ---
+
+<div data-i18n="ko" markdown="1">
 
 작심삼일이라는데, 저는 삼일도 못 갔어요. 습관 앱을 써봐도 문제는 똑같았습니다. "오늘 했음" 체크하는 것 자체를 까먹더라고요. 결국 체크가 밀리고, 밀리면 보기 싫어지고, 그러다 앱을 지웠어요.
 
@@ -36,3 +40,39 @@ tags: [iPhone앱, 습관, KeepStreak]
 4. 어긴 날엔 리셋하고 다시 1일부터 시작하면 돼요.
 
 기록은 전부 기기에만 저장돼요. 지금 App Store 심사 중이라, 곧 받으실 수 있습니다. 소식은 [지원 페이지](/keepstreak)에 올릴게요.
+
+</div>
+
+<div data-i18n="en" markdown="1">
+
+They say most resolutions die in three days — I couldn't even make it to three. Habit apps didn't help, because the problem was the same: I'd forget to tap the "did it today" checkbox. The checks would pile up, the pile got depressing to look at, and eventually I'd just delete the app.
+
+So KeepStreak **got rid of the checkbox.** You set one goal, and every day you keep it, your streak grows by one — automatically. All you have to do is watch the number go up. Because "how many days you've kept it" shows up as one big number, you keep opening the app just to see it.
+
+It fits **"don't do it" goals** especially well — no soda, no late-night snacks, quitting smoking. You don't have to *do* something every day, you just have to *not* do it, which pairs perfectly with automatic counting. Pin your main challenge to a home-screen widget and the number is right there without even opening the app. Slip up one day? Just reset that one challenge and start again from day one.
+
+<div style="display:flex;gap:12px;flex-wrap:wrap;margin:1.6em 0">
+  <figure style="margin:0;flex:1;min-width:170px;max-width:230px">
+    <img src="/assets/images/posts/keepstreak-main.png" alt="KeepStreak main screen" style="width:100%;border-radius:14px;border:1px solid rgba(255,255,255,0.12)">
+    <figcaption style="font-size:0.85em;opacity:0.65;margin-top:6px">Days kept, as a number</figcaption>
+  </figure>
+  <figure style="margin:0;flex:1;min-width:170px;max-width:230px">
+    <img src="/assets/images/posts/keepstreak-add.png" alt="KeepStreak add challenge screen" style="width:100%;border-radius:14px;border:1px solid rgba(255,255,255,0.12)">
+    <figcaption style="font-size:0.85em;opacity:0.65;margin-top:6px">Just add one goal</figcaption>
+  </figure>
+  <figure style="margin:0;flex:1;min-width:170px;max-width:230px">
+    <img src="/assets/images/posts/keepstreak-info.png" alt="KeepStreak intro screen" style="width:100%;border-radius:14px;border:1px solid rgba(255,255,255,0.12)">
+    <figcaption style="font-size:0.85em;opacity:0.65;margin-top:6px">No fussy setup</figcaption>
+  </figure>
+</div>
+
+## How to use it
+
+1. Add one goal to keep. (e.g. no soda)
+2. Every day adds itself to the streak — nothing to check off.
+3. Pin your main challenge to a home-screen widget and watch the number.
+4. If you slip, reset and start again from day one.
+
+Everything is stored only on your device. It's in App Store review right now, so it'll be available soon. I'll post updates on the [support page](/keepstreak).
+
+</div>

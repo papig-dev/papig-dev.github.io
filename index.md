@@ -20,7 +20,7 @@ description: 음악 플레이어 Riffle, 월간 지출 관리 지출달력, 습�
     <a class="app-card-link" href="/blog/riffle/">
       <div class="app-icon"><img src="/assets/images/riffle-icon.jpg" alt="Riffle 앱 아이콘"></div>
       <h3 class="app-name">Riffle</h3>
-      <p class="app-desc">곡이 바뀔 때마다 노래 제목을 음성으로 읽어줘, 들으면서 자연스럽게 노래를 익히는 음악 플레이어</p>
+      <p class="app-desc">곡이 바뀔 때마다 노래 제목을 음성으로 읽어줘, 들으면서 자연스럽게 노래를 익히는 음악 플레이어. 이제 음악을 끊지 않는 걷기·러닝 동반자까지.</p>
     </a>
     <div class="app-actions">
       <a class="app-store-link" href="https://apps.apple.com/app/riffle/id6759858871" target="_blank">App Store</a>

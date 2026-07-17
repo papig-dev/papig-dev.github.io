@@ -123,3 +123,47 @@
   color: #aaa;
   font-size: 13px;
 }
+
+/* Bilingual (ko/en) content — controlled by html[data-lang] set in head-custom.html.
+   Only one language block is shown; the other is hidden. Defaults handled by JS. */
+[data-i18n] {
+  display: none;
+}
+
+html[data-lang="ko"] [data-i18n="ko"],
+html[data-lang="en"] [data-i18n="en"] {
+  display: revert;
+}
+
+/* Language toggle (shown on bilingual pages via page.bilingual) */
+.lang-toggle {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  margin: 0 0 20px 0;
+}
+
+.lang-toggle button {
+  padding: 5px 15px;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(181, 232, 83, 0.35);
+  border-radius: 50px;
+  color: #d0d0d0;
+  font-size: 13px;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
+}
+
+.lang-toggle button:hover {
+  border-color: #b5e853;
+  color: #b5e853;
+}
+
+html[data-lang="ko"] .lang-toggle [data-set-lang="ko"],
+html[data-lang="en"] .lang-toggle [data-set-lang="en"] {
+  background: rgba(181, 232, 83, 0.15);
+  border-color: #b5e853;
+  color: #b5e853;
+  font-weight: bold;
+}

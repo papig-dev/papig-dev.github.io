@@ -16,4 +16,26 @@
 {% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification }}">{% endif %}
 {% if site.naver_site_verification %}<meta name="naver-site-verification" content="{{ site.naver_site_verification }}">{% endif %}
 
+<!-- Bilingual (ko/en): pick initial language before first paint, wire up toggle clicks -->
+<script>
+  (function () {
+    try {
+      var stored = localStorage.getItem('papig-lang');
+      var lang = (stored === 'ko' || stored === 'en')
+        ? stored
+        : ((navigator.language || 'en').toLowerCase().indexOf('ko') === 0 ? 'ko' : 'en');
+      document.documentElement.setAttribute('data-lang', lang);
+    } catch (e) {
+      document.documentElement.setAttribute('data-lang', 'ko');
+    }
+  })();
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest && e.target.closest('[data-set-lang]');
+    if (!btn) return;
+    var lang = btn.getAttribute('data-set-lang');
+    document.documentElement.setAttribute('data-lang', lang);
+    try { localStorage.setItem('papig-lang', lang); } catch (e) {}
+  });
+</script>
+
 <!-- end custom head snippets -->

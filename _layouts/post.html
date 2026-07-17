@@ -2,8 +2,19 @@
 layout: default
 ---
 
+{% if page.bilingual %}
+<div class="lang-toggle" role="group" aria-label="Language / 언어">
+  <button type="button" data-set-lang="ko">한국어</button>
+  <button type="button" data-set-lang="en">English</button>
+</div>
+{% endif %}
+
 <small>{{ page.date | date: "%-d %B %Y" }}</small>
+{% if page.bilingual and page.title_en %}
+<h1><span data-i18n="ko">{{ page.title }}</span><span data-i18n="en">{{ page.title_en }}</span></h1>
+{% else %}
 <h1>{{ page.title }}</h1>
+{% endif %}
 
 <p class="view">by {{ page.author | default: site.author }}</p>
 
