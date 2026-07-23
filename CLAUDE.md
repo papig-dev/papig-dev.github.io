@@ -21,19 +21,19 @@ papig(개발자 papig-dev)의 앱 지원·마케팅용 GitHub Pages 사이트입
 
 ## 앱 목록 (설명의 소스 오브 트루스)
 
-카드 설명이나 지원 페이지 문구를 바꿀 때는 아래 "핵심"을 기준으로 한다. 추측으로 기능을 지어내지 말 것. 각 앱의 실제 프로젝트가 `~/dev/`에 있으니 불확실하면 그쪽 README/CLAUDE.md/스토어 문구를 확인한다.
+카드 설명이나 지원 페이지 문구를 바꿀 때는 아래 "핵심"을 기준으로 한다. 추측으로 기능을 지어내지 말 것. 불확실하면 각 앱의 실제 프로젝트 저장소(README/CLAUDE.md)나 스토어 문구를 확인한다. (로컬 프로젝트 경로는 커밋되지 않는 `CLAUDE.local.md` 참고.)
 
-| 앱 | 상태 | 프로젝트 | 아이콘 | 지원 경로 |
-|----|------|----------|--------|-----------|
-| Riffle | 출시 | `~/dev/riffle_v3` | `riffle-icon.jpg` | `/riffle/` |
-| 지출달력 (ExpenseCal) | 출시 | `~/dev/ExpenseCal` | `expensecal-icon.jpg` | `/expensecal/` |
-| KeepStreak | 출시 | `~/dev/KeepStreak` | `keepstreak-icon.png` | `/keepstreak/` |
-| 차곡로그 (Chagok) | 출시 | `~/dev/Chagoklog` | `chagoklog-icon.png` | `/chagoklog/` |
+| 앱 | 상태 | 아이콘 | 지원 경로 |
+|----|------|--------|-----------|
+| Riffle | 출시 | `riffle-icon.jpg` | `/riffle/` |
+| 지출달력 (ExpenseCal) | 출시 | `expensecal-icon.jpg` | `/expensecal/` |
+| KeepStreak | 출시 | `keepstreak-icon.png` | `/keepstreak/` |
+| 차곡로그 (Chagok) | 출시 | `chagoklog-icon.png` | `/chagoklog/` |
 
 ### Riffle
 - **핵심**: 곡을 재생하기 **전에 제목을 음성(TTS)으로 읽어줘서** 노래 제목을 자연스럽게 익히게 하는 iPhone 음악 플레이어. 원래 아이들이 노래 제목을 기억하게 하려고 만든 앱.
 - iPhone 음악 보관함 재생, 셔플/반복, 제목 읽기(TTS, 제목→아티스트 순) 설정.
-- **걷기·러닝 동반자(v1.3.0+, 기본 꺼짐)**: 음악을 **끊지 않고** 거리·페이스·시간을 (TTS 요약 또는 1km마다 ducking으로) 안내. GPS 미사용(Apple Watch 또는 아이폰 모션 센서). 운동과 음악은 독립(운동 종료해도 음악 지속). Apple Watch 컴패니언 앱+컴플리케이션 포함. 상세는 `~/dev/riffle_v3/CLAUDE.md`.
+- **걷기·러닝 동반자(v1.3.0+, 기본 꺼짐)**: 음악을 **끊지 않고** 거리·페이스·시간을 (TTS 요약 또는 1km마다 ducking으로) 안내. GPS 미사용(Apple Watch 또는 아이폰 모션 센서). 운동과 음악은 독립(운동 종료해도 음악 지속). Apple Watch 컴패니언 앱+컴플리케이션 포함. 상세는 riffle 프로젝트 저장소의 CLAUDE.md 참고.
 - App Store: https://apps.apple.com/app/riffle/id6759858871
 
 ### 지출달력 (ExpenseCal)
