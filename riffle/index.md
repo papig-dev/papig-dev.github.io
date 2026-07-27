@@ -26,6 +26,16 @@ Riffle의 문제가 아니라 **Apple Watch의 시스템 설정** 때문입니�
 
 이렇게 하면 손목을 올려도 시계로 돌아가고, 원할 때만 Riffle을 열 수 있습니다. (Apple Watch의 기본 동작은 시계로 돌아가는 것이라, 대부분의 경우 이 설정을 바꿀 필요가 없습니다.)
 
+> **English** — *The Riffle app keeps appearing on my Apple Watch while I walk.*
+>
+> This is caused by an **Apple Watch system setting**, not by Riffle. If your watch is set to reopen the last-used app when you raise your wrist, walking (which raises your wrist often) keeps bringing up the last app you opened (Riffle).
+>
+> To fix it, make the watch return to the **clock face** on wrist raise instead:
+> - **On Apple Watch**: Settings → General → **Return to Clock** → **Always**
+> - **Or on iPhone**: Watch app → My Watch → General → **Return to Clock** → **Always**
+>
+> Raising your wrist will then show the clock, and you open Riffle only when you want to. (Returning to the clock is the default on Apple Watch, so most people never need to change this.)
+
 ## 문의
 
 - 이메일: <a href="mailto:papig.dev@gmail.com">papig.dev@gmail.com</a>
