@@ -17,7 +17,7 @@ papig(개발자 papig-dev)의 앱 지원·마케팅용 GitHub Pages 사이트입
 - front matter에 `bilingual: true`(+ 영문 제목 `title_en`)를 넣으면 `_layouts/post.html`이 상단에 언어 토글 버튼을 렌더.
 - 본문은 `<div data-i18n="ko" markdown="1">…</div>` 와 `<div data-i18n="en" markdown="1">…</div>` 두 블록으로 나눠 쓴다(kramdown 파싱 위해 `markdown="1"` 필수). 이미지·캡션도 각 블록에 각각 넣어 캡션까지 번역.
 - 초기 언어 결정·토글 클릭·`localStorage` 기억은 `_includes/head-custom.html`의 인라인 스크립트가 `<html data-lang>`에 세팅(한국어 브라우저→ko, 그 외→en). 표시/숨김 CSS는 `assets/css/style.scss`의 `[data-i18n]` / `.lang-toggle` 규칙.
-- 홈 카드는 한국어 전용. 고객지원 페이지는 이중언어 앱만 이중언어화: **riffle(`/riffle/`)은 이중언어**(front matter `bilingual: true`+`title_en`, 본문 ko/en `data-i18n` 블록, 토글은 `_layouts/default.html`이 `page.bilingual and page.layout != 'post'`일 때 렌더). 국내전용 앱(지출달력·차곡로그)은 한국어 전용. privacy 페이지는 아직 한국어 전용.
+- 홈 카드는 한국어 전용. 고객지원 페이지는 이중언어 앱만 이중언어화: **riffle(`/riffle/`)은 이중언어**(front matter `bilingual: true`+`title_en`, 본문 ko/en `data-i18n` 블록, 토글은 `_layouts/default.html`이 `page.bilingual and page.layout != 'post'`일 때 렌더). 국내전용 앱(지출달력·차곡로그)은 한국어 전용. riffle은 privacy 페이지(`/riffle/privacy/`)도 이중언어. 다른 앱 privacy는 한국어 전용.
 
 ## 앱 목록 (설명의 소스 오브 트루스)
 
