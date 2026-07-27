@@ -31,6 +31,13 @@
 
     <div class="container">
       <section id="main_content">
+        {% comment %} 이중언어 페이지(고객지원 등) 상단 언어 토글. 포스트는 post.html이 자체 렌더하므로 제외(중복 방지). {% endcomment %}
+        {% if page.bilingual and page.layout != 'post' %}
+        <div class="lang-toggle" role="group" aria-label="Language / 언어">
+          <button type="button" data-set-lang="ko">한국어</button>
+          <button type="button" data-set-lang="en">English</button>
+        </div>
+        {% endif %}
         {{ content }}
       </section>
     </div>

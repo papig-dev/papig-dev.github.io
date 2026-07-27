@@ -1,9 +1,13 @@
 ---
 layout: default
 title: Riffle 고객지원
+title_en: Riffle Support
+bilingual: true
 description: Riffle은 곡이 바뀔 때 노래 제목을 음성으로 읽어주는 iPhone 음악 플레이어입니다. 사용법과 문의를 안내합니다.
 permalink: /riffle/
 ---
+
+<div data-i18n="ko" markdown="1">
 
 # Riffle 고객지원
 
@@ -26,16 +30,6 @@ Riffle의 문제가 아니라 **Apple Watch의 시스템 설정** 때문입니�
 
 이렇게 하면 손목을 올려도 시계로 돌아가고, 원할 때만 Riffle을 열 수 있습니다. (Apple Watch의 기본 동작은 시계로 돌아가는 것이라, 대부분의 경우 이 설정을 바꿀 필요가 없습니다.)
 
-> **English** — *The Riffle app keeps appearing on my Apple Watch while I walk.*
->
-> This is caused by an **Apple Watch system setting**, not by Riffle. If your watch is set to reopen the last-used app when you raise your wrist, walking (which raises your wrist often) keeps bringing up the last app you opened (Riffle).
->
-> To fix it, make the watch return to the **clock face** on wrist raise instead:
-> - **On Apple Watch**: Settings → General → **Return to Clock** → **Always**
-> - **Or on iPhone**: Watch app → My Watch → General → **Return to Clock** → **Always**
->
-> Raising your wrist will then show the clock, and you open Riffle only when you want to. (Returning to the clock is the default on Apple Watch, so most people never need to change this.)
-
 ## 문의
 
 - 이메일: <a href="mailto:papig.dev@gmail.com">papig.dev@gmail.com</a>
@@ -45,6 +39,43 @@ Riffle의 문제가 아니라 **Apple Watch의 시스템 설정** 때문입니�
 ## 개인정보처리방침
 
 [개인정보처리방침 보기](/riffle/privacy/)
+
+</div>
+
+<div data-i18n="en" markdown="1">
+
+# Riffle Support
+
+Riffle is an iPhone music player that reads each song's title aloud before it starts playing. Once you shuffle a playlist, that order stays put — to hear a different order, pull down to refresh on the Library screen.
+
+## Walking & Running Companion
+
+Turn on walking/running in Settings to hear distance, pace, and time alongside your music without ever pausing it (off by default). It uses no GPS — an Apple Watch measures it if you have one, otherwise the iPhone's motion sensor does. Your music keeps playing even after you end a workout. Each spoken item (distance, pace, time) can be turned on or off individually in Settings.
+
+## Frequently Asked Questions (FAQ)
+
+### The Riffle app keeps appearing on my Apple Watch while I walk.
+
+This is caused by an **Apple Watch system setting**, not by Riffle. If your watch is set to reopen the last-used app when you raise your wrist, walking (which raises your wrist often) keeps bringing up the last app you opened (Riffle).
+
+To fix it, make the watch return to the **clock face** on wrist raise instead:
+
+- **On Apple Watch**: Settings → General → **Return to Clock** → **Always**
+- **Or on iPhone**: Watch app → My Watch → General → **Return to Clock** → **Always**
+
+Raising your wrist will then show the clock, and you open Riffle only when you want to. (Returning to the clock is the default on Apple Watch, so most people never need to change this.)
+
+## Contact
+
+- Email: <a href="mailto:papig.dev@gmail.com">papig.dev@gmail.com</a>
+
+We'll get back to you as soon as we can.
+
+## Privacy Policy
+
+[View the Privacy Policy](/riffle/privacy/)
+
+</div>
 
 ---
 
