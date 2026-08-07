@@ -228,10 +228,10 @@
         "universalLink": null,
         "storeUrl": "https://apps.apple.com/kr/app/id1554807824"
       },
-      "note": null,
+      "note": "페이펫 키우기 · 광고 클릭으로 포인트 적립",
       "verified": true,
       "enabled": true,
-      "_devNote": "스킴 반증(실기기 2026-08-06): naverpay",
+      "_devNote": "스킴 반증(실기기 2026-08-06): naverpay / note 는 App Store 설명에서 확인한 문구만 썼다(페이펫/광고 클릭/퀴즈·미션). 지어내면 UI 에 거짓이 노출된다.",
       "badgeLabel": "네이",
       "badgeColor": "#02B248"
     },
