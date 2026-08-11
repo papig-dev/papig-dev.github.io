@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-08-06T00:00:00Z",
+  "updatedAt": "2026-08-11T00:00:00Z",
   "minAppVersion": "0.1.0",
   "_note": [
     "번들 초기본. 원격본은 https://papig.dev/kkak/v1/presets.json 이 소유한다.",
@@ -13,9 +13,17 @@
     "   예: 토스 com.vivarepublica.cash ↔ viva.republica.toss",
     "       OK캐쉬백 kr.co.flyingfinger.OKCashbag ↔ com.skmc.okcashbag.home_google",
     "",
-    "⚠️ ios.scheme 은 아직 전부 null 이다. iOS는 스킴이 없으면 앱을 못 띄우므로",
-    "   현재 모든 항목이 '탭 → 스토어'로만 동작한다. 실행 기능은 미완성이다.",
-    "   확정 방법: Debug 빌드의 스킴 프로버(설정 탭)를 대상 앱이 설치된 기기에서 실행.",
+    "ios.scheme — 23개 중 13개 확정. iOS는 스킴이 없으면 앱을 못 띄우므로",
+    "   나머지 10개는 '탭 → 스토어'로 동작하고 추가 화면에 '곧 지원'으로 표시된다.",
+    "   실기기에서 실제로 열리는 것만 넣는다 — 틀린 스킴은 조용히 실패해 전부 스토어로 빠진다.",
+    "",
+    "⚠️ **스킴은 추측하지 말고 대상 앱의 공유 링크에서 찾는다.** 2026-08-09 에 편의점 3개를",
+    "   추측 후보 17개로 시험해 전부 반증했고, 공유 링크에서는 세 개 다 한 번에 나왔다:",
+    "     woodongs  — Airbridge 공유 링크(abr.ge)에 woodongs://link?view=... 가 그대로",
+    "     bgfcuk    — pocketcu.co.kr/deepLink/checkAppInstall 의 appLink={iosAppId:\"bgfcuk\"}",
+    "     k7scheme  — 공유 페이지의 Nuxt 라우트 청크(_nuxt/DhXPuh-D.js)의 const n=\"k7scheme\"",
+    "   bgfcuk·k7scheme 같은 값은 규칙이 없어 추측으로 절대 맞힐 수 없다.",
+    "   ⚠️ HTML 에 없으면 **SPA 라우트 청크**를 본다: app.js 에서 라우트→청크 매핑을 grep 한다.",
     "",
     "오퀴즈: iOS 앱이 존재하지 않아 시드에서 제외했다. 설계문서 §3.5 '예외 시간 항목'의",
     "        유일한 사례였으므로, iOS v1에는 fixedTime 항목이 하나도 없다.",
@@ -249,15 +257,16 @@
       "ios": {
         "appId": 1400703652,
         "bundleId": "com.nbt.moves",
-        "scheme": null,
+        "scheme": "csld://",
         "universalLink": null,
         "storeUrl": "https://apps.apple.com/kr/app/id1400703652"
       },
       "note": null,
-      "verified": false,
+      "verified": true,
       "enabled": true,
       "badgeLabel": "슬라",
-      "badgeColor": "#F3DB02"
+      "badgeColor": "#F3DB02",
+      "_devNote": "스킴 확정 2026-08-09: Airbridge 공유 링크(stepup.airbridge.io/perform)를 iOS UA 로 받으면 csld://perform?utm_source=... 가 그대로 있다. 실기기에서 호스트 없이 열림 확인. ⚠️ csld = cashslide 의 자음만. 추측 후보 8개가 전멸한 이유다: nbtmoves, moves, cashslide, nbt, stepup, cashslidestepup, nbtstepup, cashwalkmoves. 번들 ID 가 iOS·Android 둘 다 com.nbt.moves 인 것은 스킴과 무관한 단서였다. AASA 없음(cashslide.co.kr 404)."
     },
     {
       "id": "cashmore",
@@ -565,14 +574,14 @@
       "ios": {
         "appId": 426644449,
         "bundleId": "com.gsretail.gscvs",
-        "scheme": null,
+        "scheme": "woodongs://",
         "universalLink": null,
         "storeUrl": "https://apps.apple.com/kr/app/id426644449"
       },
       "note": "매일 출석체크로 포인트 적립",
-      "verified": false,
+      "verified": true,
       "enabled": true,
-      "_devNote": "iTunes/Play 실측 2026-08-06. 스킴 미확정 — AASA 없음(gs25.gsretail.com 404), m.gs25.com 응답 없음",
+      "_devNote": "iTunes/Play 실측 2026-08-06. gsretail.com 404), m.gs25.com 응답 없음  스킴 확정 2026-08-09: Airbridge 공유 링크(abr.ge)에 woodongs://link?view=... 가 그대로 노출. 실기기 Safari 에서 호스트 없이 열림 확인. AASA 는 없다(m.woodongs.com 은 HTML 200 = 소프트 404).",
       "badgeLabel": "GS",
       "badgeColor": "#2AC5E7"
     },
@@ -590,16 +599,41 @@
       "ios": {
         "appId": 573144133,
         "bundleId": "com.bgfcucard.cumembership",
-        "scheme": null,
+        "scheme": "bgfcuk://",
         "universalLink": null,
         "storeUrl": "https://apps.apple.com/kr/app/id573144133"
       },
       "note": "매일 출석체크로 포인트 적립",
-      "verified": false,
+      "verified": true,
       "enabled": true,
-      "_devNote": "iTunes/Play 실측 2026-08-06. iOS 번들 com.bgfcucard.cumembership ↔ Android com.bgfcu.membership — 비슷해서 눈으로 놓치기 쉽다. 스킴 미확정(pocketcu.co.kr AASA 는 HTML 200 = 소프트 404)",
+      "_devNote": "iTunes/Play 실측 2026-08-06. iOS 번들 com.bgfcucard.cumembership ↔ Android com.bgfcu.membership — 비슷해서 눈으로 놓치기 쉽다. co.kr AASA 는 HTML 200 = 소프트 404)  스킴 확정 2026-08-09: pocketcu.co.kr/deepLink/checkAppInstall 스크립트의 appLink={iosAppId:\"bgfcuk\"} 에서. location.href = iosAppId + \"://\" + deepLink 로 앱을 연다. 실기기 확인 완료. ⚠️ bgf+cu+k 조합이라 추측으로는 못 맞힌다.",
       "badgeLabel": "CU",
       "badgeColor": "#7433DC"
+    },
+    {
+      "id": "seven_eleven",
+      "name": "세븐일레븐",
+      "category": "attend",
+      "suggestedGroup": "noon",
+      "fixedTime": null,
+      "android": {
+        "package": "kr.co.kork7app",
+        "deepLink": null,
+        "storeUrl": "market://details?id=kr.co.kork7app"
+      },
+      "ios": {
+        "appId": 1253773772,
+        "bundleId": "kr.co.koreak7app",
+        "scheme": "k7scheme://",
+        "universalLink": null,
+        "storeUrl": "https://apps.apple.com/kr/app/id1253773772"
+      },
+      "note": "앱 쿠폰·이벤트 확인",
+      "verified": true,
+      "enabled": true,
+      "_devNote": "iTunes/Play 실측 2026-08-09. ⚠️ iOS kr.co.koreak7app ↔ Android kr.co.kork7app — 'korea' vs 'kor' 차이라 재사용하면 틀린다. Play 개발사 '7-ELEVEN (코리아세븐)' 으로 대조 확인. 검색에 같이 걸리는 com.ecoworkinc.711.SevenMobileApp 은 대만 앱이므로 혼동 금지. co.kr AASA 는 HTML 200 = 소프트 404, HTML·JS 번들에도 커스텀 스킴이 없다. badgeColor 는 tools/badge-color.swift 로 아트워크에서 추출. ⚠️ 스토어 설명(419자)에 출석체크·스탬프·룰렛이 없어 note 를 GS25/CU 의 '매일 출석체크' 와 다르게 썼다 — 확인되지 않은 기능을 사용자에게 보이는 문구로 쓰지 않는다.  스킴 확정 2026-08-09: 공유 페이지의 Nuxt 라우트 청크 static.7-elevenapp.co.kr/k7app/_nuxt/DhXPuh-D.js 에 const n=\"k7scheme\", a=\"kork7app\" 와 k7scheme://kork7app?target_url=... 가 있다. 같은 파일의 id1253773772 가 appId 와 교차 일치. ⚠️ 실제 코드는 호스트(kork7app)를 붙이지만 **호스트 없이도 열린다**(실기기 확인) → 단순한 형태를 쓴다.",
+      "badgeLabel": "세븐",
+      "badgeColor": "#E84855"
     }
   ]
 }
