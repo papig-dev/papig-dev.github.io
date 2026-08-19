@@ -64,6 +64,18 @@ description: 음악 플레이어 Riffle, 월간 지출 관리 지출달력, 습�
     </div>
   </div>
 
+  <div class="app-card">
+    <a class="app-card-link" href="/blog/kkak/">
+      <div class="app-icon"><img src="/assets/images/kkak-icon.png" alt="딸깍줍줍 앱 아이콘"></div>
+      <h3 class="app-name">딸깍줍줍</h3>
+      <p class="app-desc">앱테크 앱들의 출석체크·만보기·룰렛을 아침·점심·저녁에 알려주고, 한 화면에서 딸깍 눌러 다녀오는 리마인더</p>
+    </a>
+    <div class="app-actions">
+      <a class="app-store-link" href="https://apps.apple.com/kr/app/%EB%94%B8%EA%B9%8D%EC%A4%8D%EC%A4%8D/id6799540360" target="_blank">App Store</a>
+      <a class="app-support" href="/kkak/">고객지원</a>
+    </div>
+  </div>
+
 </div>
 
 
